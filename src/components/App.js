@@ -1,6 +1,6 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
-import "../css/App.css"
+import "../css/App.css";
 import Navbar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
@@ -20,8 +20,34 @@ class App extends React.Component {
         <About />
         <Skills />
         <Experience />
-        <Project />
-        <Achievements />
+        <div className="project-container">
+          <div class="sectiontitle">
+            <h2>Projects</h2>
+            <span class="headerLine"></span>
+          </div>
+          <div className="row">
+            <div className="col s4">
+              <Project />
+            </div>
+            <div className="col s4">
+              <Project />
+            </div>
+            <div className="col s4">
+              <Project />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col s4">
+              <Project />
+            </div>
+            <div className="col s4">
+              <Project />
+            </div>
+            <div className="col s4">
+              <Project />
+            </div>
+          </div>
+        </div>
         <ContactMe />
         <Footer />
       </>

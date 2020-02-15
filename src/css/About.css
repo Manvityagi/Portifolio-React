@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+}
+
+.about {
+  background-image: url("../images/minions.jpg");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 27%;
+    width: 45%;
+}

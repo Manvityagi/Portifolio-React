@@ -1,8 +1,10 @@
 import React from "react";
 import "materialize-css/dist/css/materialize.min.css";
+import "../css/App.css"
 import Navbar from "./NavBar";
 import Home from "./Home";
 import About from "./About";
+import Skills from "./Skills";
 import Experience from "./Experience";
 import Project from "./Project";
 import Achievements from "./Achievements";
@@ -16,6 +18,7 @@ class App extends React.Component {
         <Navbar />
         <Home />
         <About />
+        <Skills />
         <Experience />
         <Project />
         <Achievements />

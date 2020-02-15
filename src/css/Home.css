@@ -1,11 +1,22 @@
 .bg {
-  background-size: cover;
+  background-image: url("../images/manvi4.jpg");
   height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .me {
-    
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.whome {
+  position: absolute;
+  top: 70%;
+  left: 77%;
+  transform: translate(-50%, -50%);
 }

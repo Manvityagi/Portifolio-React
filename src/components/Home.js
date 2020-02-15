@@ -1,22 +1,18 @@
 import React from "react";
 import "../css/Home.css";
 
-class Home extends React.Component {
+class About extends React.Component {
   render() {
     return (
-      <section id="home">
-        <div>
-          <img className="bg" src="/images/manvi3.jpg" />
-          <div className="intro">
-            <h1 className="me">Hi! I am Manvi</h1>
-            <h2 className="whome">
-              I am a Web Deveoper, a community leader and a mentor
-            </h2>
-          </div>
-        </div>
-      </section>
+      <div className="bg">
+        <br/><br/><br/><br/><br/><br/><br/>
+        <h1 className="me">Hi! I am Manvi Tyagi</h1>
+        <h2 className="whome">I am a Web Developer, a community leader and a codeater</h2>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      </div>
     );
   }
 }
 
-export default Home;
+export default About;

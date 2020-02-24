@@ -1,0 +1,40 @@
+.footer {
+  background-color: #ededed;
+  width: 100%;
+  height: 35vh;
+  margin-top: 5vh;
+}
+
+/* why not working */
+/* .footer p :nth-child(2) {
+  text-align: center;
+  padding-top: 4vh;
+} */
+
+.footer p {
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.soc_ial-link {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+div.footer ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+
+}
+
+li {
+  float: left;
+  margin: 1vw;
+}
